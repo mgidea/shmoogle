@@ -1,27 +1,29 @@
+
+
 body  {
+  max-width: 1000px;
   padding:0;
-  margin:0;
+  margin:auto;
   font-family: 'arial', 'san-serif';
   font-size: 14px
 }
 
 .navigation  {
   padding: 0;
-  margin: 0;
+  margin: auto;
   background-color: black;
   border: 1px solid;
 }
 
 .nav  {
   padding-left: 8px;
-  margin:;
   list-style: none;
 }
 
 .navigation li {
   display: inline;
   padding-left:0 ;
-  padding-right: 10px;
+  padding-right: 16px;
 }
 
 .navigation > li > .active,
@@ -35,7 +37,7 @@ body  {
 
 .navigation a  {
   text-decoration: none;
-  color: gray;
+  color: #ababab;
 }
 
 .navigation a:hover  {
@@ -44,10 +46,73 @@ body  {
 
 form.search {
   padding-left: 8px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   background-color:  #e4e4e4;
 }
 
+.s  {
+  color: yellow;
+}
 
+.h  {
+  color: blue;
+}
+
+.m  {
+  color: brown;
+}
+
+.o1  {
+  color: purple;
+}
+
+.o2  {
+  color: red;
+}
+
+.g  {
+  color: green;
+}
+
+.l  {
+  color: magenta;
+}
+
+.e  {
+  color: orange;
+}
+
+.nav-2  {
+  list-style: none;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  margin: 0;
+}
+
+.nav-2 li {
+  display: inline;
+}
+
+.nav-2 li:hover  {
+  text-decoration: underline !important;
+
+}
+
+.nav-2 li a  {
+  text-decoration: none;
+  color:#ababab;
+  padding: 0 15px 0 15px;
+}
+
+.nav-2 li a:hover  {
+  color: red;
+  text-decoration:underline !important;
+  padding-bottom: 10px;
+  border-bottom: 5px solid red;
+
+}
+
+.filters  {
+}
 
